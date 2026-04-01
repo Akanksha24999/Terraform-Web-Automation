@@ -1,0 +1,29 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+.terraform/
+.terraform.lock.hcl
+
+# Terraform Cloud local override file
+override.tf
+override.tf.json
+
+# Sensitive local variable files
+*.tfvars
+*.tfvars.json
+
+# Editor and OS files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Optional: terraform plan output
+plan.out
